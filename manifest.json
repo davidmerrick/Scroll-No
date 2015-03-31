@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Scroll No",
+  "description": "Messes up scrolling.",
+  "version": "1.0",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js", "upsideDown.js"]
+    }
+  ]
+}
